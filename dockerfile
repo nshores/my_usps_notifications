@@ -3,6 +3,8 @@ FROM ubuntu:16.04
 
 MAINTAINER Nick Shores
 
+
+
 #Install Python 3
 RUN apt-get update
 RUN apt-get install -y software-properties-common vim
@@ -19,6 +21,10 @@ RUN python3.6 -m pip install wheel
 #Install MyUsps Library
 RUN pip install myusps
 
+#Clone myusps_notifications repo
+RUN git clone https://github.com/nshores/my_usps_notifications.git
+
+
 #Set Env Variables
 ENV SELENIUM_STANDALONE_VERSION=3.4.0
 RUN SELENIUM_SUBDIR=$(echo "$SELENIUM_STANDALONE_VERSION" | cut -d"." -f-2)
@@ -26,7 +32,8 @@ RUN CHROME_DRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_R
 
 #Install Dependencies
 RUN sudo apt-get update
-RUN  sudo apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4
+RUN sudo apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4
+RUN sudo apt-get install curl
 
 # Install Chrome.
 RUN sudo curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
