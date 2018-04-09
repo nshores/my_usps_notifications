@@ -1,4 +1,4 @@
-# Notification module built around the MyUsps python library (https://github.com/happyleavesaoc/python-myusps)
+# Slack Notification module built around the MyUsps python library (https://github.com/happyleavesaoc/python-myusps)
 
 
 # Requirments (Docker image forthcoming)
