@@ -3,14 +3,17 @@ FROM ubuntu:16.04
 
 MAINTAINER Nick Shores
 
-#install curl
-RUN sudo apt-get install curl
+
 
 #Install Python 3
 RUN apt-get update
 RUN apt-get install -y software-properties-common vim
 RUN add-apt-repository ppa:jonathonf/python-3.6
 RUN apt-get update
+
+
+#install curl
+RUN sudo apt-get install curl
 
 RUN apt-get install -y build-essential python3.6 python3.6-dev python3-pip python3.6-venv
 RUN apt-get install -y git
