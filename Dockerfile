@@ -3,7 +3,8 @@ FROM ubuntu:16.04
 
 MAINTAINER Nick Shores
 
-
+#install curl
+RUN sudo apt-get install curl
 
 #Install Python 3
 RUN apt-get update
@@ -33,7 +34,7 @@ RUN CHROME_DRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_R
 #Install Dependencies
 RUN sudo apt-get update
 RUN sudo apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4
-RUN sudo apt-get install curl
+
 
 # Install Chrome.
 RUN sudo curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
