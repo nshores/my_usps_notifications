@@ -5,8 +5,7 @@ usps_password=""
 
 
 
-docker run -d \
-    --name myusps_notifications \
+docker run \
     -e webhook_url="${webhook_url}" \
     -e usps_username="${usps_username}" \
     -e usps_password="${usps_password}" \

@@ -10,7 +10,6 @@ After pulling, you can either edit the included ```docker_run.sh``` script with 
 
 ## Environment Variables
 
-There are other environment variables if you want to customize various things inside the docker container:
 
 | Docker Environment Var. | Description |
 | ----------------------- | ----------- |
