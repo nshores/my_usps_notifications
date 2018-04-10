@@ -2,6 +2,9 @@ FROM ubuntu:16.04
 
 MAINTAINER Nick Shores
 
+#ENV Varibles
+ENV abc=hello
+
 #Install Python 3.6
 RUN apt-get update
 RUN apt-get install -y software-properties-common vim
@@ -38,8 +41,7 @@ RUN apt-get -y update
 RUN apt-get -y install google-chrome-stable
 
 #Install Chrome Driver
-RUN export CHROME_DRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE); wget -N http://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip -P ~/ 
-RUN wget -N http://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip -P ~/
+RUN export CHROME_DRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE) && wget -N http://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip -P ~/ 
 RUN unzip ~/chromedriver_linux64.zip -d ~/
 RUN rm ~/chromedriver_linux64.zip
 RUN mv -f ~/chromedriver /usr/local/bin/chromedriver
