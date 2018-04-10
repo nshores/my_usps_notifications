@@ -1,8 +1,11 @@
-# Slack Notification module built around the MyUsps python library (https://github.com/happyleavesaoc/python-myusps)
+# Slack/Email/Pushbullet Notification module built around the MyUsps python library (https://github.com/happyleavesaoc/python-myusps)
 
 # Install Instructions 
 ```sudo docker pull nshores/my_usps_notifications```  
-```sudo docker run nshores/my_usps_notifications```  
+
+After pulling, you can either edit the included ```docker_run.sh``` script with your enviormental variables and run that, or run it directly from the command line as seen below. If you use the included script it will automatically schedule the script to run once a day, at 7am. 
+
+```sudo docker run -name myusps_notifications -e webhook_url="XXXX" -e usps_username="XXXX" -e usps_password="XXXX" nshores/my_usps_notifications```  
 
 # Requirments for manual install
 **Chromedriver https://sites.google.com/a/chromium.org/chromedriver/  
