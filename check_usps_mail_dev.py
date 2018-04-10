@@ -28,6 +28,7 @@ password = "Kv96wLhX87j6"
 
 # Use the login credentials you use to login to My USPS via the web.
 # A login failure raises a `USPSError`.
+#TODO - Add check for Windows or Linux. If Linux, manually specify 'chrome' as th webdriver type, as PhantomJS support is depreciated on selenium in linux.
 session = myusps.get_session(username, password)
 
 
