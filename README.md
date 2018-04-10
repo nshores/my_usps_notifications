@@ -7,6 +7,17 @@ After pulling, you can either edit the included ```docker_run.sh``` script with 
 
 ```sudo docker run -name myusps_notifications -e webhook_url="XXXX" -e usps_username="XXXX" -e usps_password="XXXX" nshores/my_usps_notifications```  
 
+
+## Environment Variables
+
+There are other environment variables if you want to customize various things inside the docker container:
+
+| Docker Environment Var. | Description |
+| ----------------------- | ----------- |
+| `-e webhook_url="XXXX"`<br/> **Required** | Set to your SlackWebhook URL (https://get.slack.help/hc/en-us/articles/115005265063-Incoming-WebHooks-for-Slack#set-up-incoming-webhooks)
+| `-e usps_username="XXXX"`<br/> **Required** | Set to your https://informeddelivery.usps.com/ Username
+| `-e usps_password="XXXX"`<br/> **Required** | Set to your https://informeddelivery.usps.com/ password
+
 # Requirments for manual install
 **Chromedriver https://sites.google.com/a/chromium.org/chromedriver/  
 Google Chrome.  
