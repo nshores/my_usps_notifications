@@ -1,4 +1,4 @@
-Determine what can be removed from docker image to slim down (Switch to alpine-linux)
+Determine what can be removed from docker image to slim down (Switch to alpine-linux)  
 Setup cronjob in docker image to execute daily  
 Sepearte imgur and slack functions into own file  
 Create main.py file and integrate above functions  
