@@ -38,8 +38,7 @@ RUN apt-get -y update
 RUN apt-get -y install google-chrome-stable
 
 #Install Chrome Driver
-RUN CHROME_DRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE && wget -N http://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip -P ~/) 
-RUN wget -N http://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip -P ~/
+RUN CHROME_DRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE &&) wget -N http://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip -P ~/ 
 RUN unzip ~/chromedriver_linux64.zip -d ~/
 RUN rm ~/chromedriver_linux64.zip
 RUN mv -f ~/chromedriver /usr/local/bin/chromedriver
@@ -49,5 +48,4 @@ RUN chmod 0755 /usr/local/bin/chromedriver
 #Start Main script which runs chromedriver and keeps container open
 #TODO - Create main start script and loop
 
-#Keep container online
-CMD [ "sh", "-c", "service ssh start; bash"]
+CMD [ "python3.6", "/my_usps_notifications/mail.py" ]
