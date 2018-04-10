@@ -1,12 +1,3 @@
-#Requires Chromedriver https://sites.google.com/a/chromium.org/chromedriver/ 
-#Google Chrome
-#PhantomJS (Be sure to include in your path)
-#USPS Informed Delivery Account
-#Python3.6.5 (For f-strings)
-#Register imgur client here  - https://api.imgur.com/oauth2/addclient
-#https://stackoverflow.com/questions/43464873/how-to-upload-files-to-slack-using-file-upload-and-requests
-#requires imgurpython
-
 import myusps
 import requests
 import os
@@ -28,6 +19,7 @@ password = "XXXX"
 
 # Use the login credentials you use to login to My USPS via the web.
 # A login failure raises a `USPSError`.
+#TODO Add check for windows/linux. If linux, use Chrome NOT phantomJS
 session = myusps.get_session(username, password)
 
 
