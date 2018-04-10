@@ -2,9 +2,6 @@ FROM ubuntu:16.04
 
 MAINTAINER Nick Shores
 
-#ENV Varibles
-ENV abc=hello
-
 #Install Python 3.6
 RUN apt-get update
 RUN apt-get install -y software-properties-common vim
