@@ -3,4 +3,4 @@ Setup cronjob in docker image to execute daily
 Sepearte imgur and slack functions into own file  
 Create main.py file and integrate above functions  
 Strip arguments from above functions and add to params.ini file  
-Add support for pushbullet and tohers?  
+Add support for pushbullet (https://github.com/randomchars/pushbullet.py) and email (https://github.com/kylefrost/todays-mail)
