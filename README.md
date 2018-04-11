@@ -1,5 +1,6 @@
 # Slack/Email/Pushbullet Notification module built around the MyUsps python library (https://github.com/happyleavesaoc/python-myusps)
 
+**You need a free account at https://informeddelivery.usps.com/box/pages/intro/start.action to use this**
 # Install Instructions 
 ```sudo docker pull nshores/my_usps_notifications```  
 
