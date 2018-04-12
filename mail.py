@@ -12,6 +12,7 @@ webhook_url = os.environ.get('webhook_url')
 from imgurpython import ImgurClient
 imgur_client_id = "88476dd48e0ed08"
 imgur_client_secret = "fe1128d77d7ea9d8d9d78805ffb943bbf63d82a2"
+#TODO add check for imgur 500 error
 client = ImgurClient(imgur_client_id, imgur_client_secret)
 
 
