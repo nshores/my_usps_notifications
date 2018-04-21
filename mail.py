@@ -23,7 +23,8 @@ password = os.environ.get('usps_password')
 # Use the login credentials you use to login to My USPS via the web.
 # A login failure raises a `USPSError`.
 #TODO Add check for windows/linux. If linux, use Chrome NOT phantomJS
-session = myusps.get_session(username, password, driver='chrome')
+#TODO Determine if Chrome is viable for future use. Firefox only work driver at the moment.
+session = myusps.get_session(username, password, driver='firefox')
 
 
 # Get all packages that My UPS knows about.

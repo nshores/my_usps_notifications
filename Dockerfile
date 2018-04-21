@@ -24,12 +24,24 @@ RUN pip install imgurpython
 #Install MyUsps Library
 RUN pip install myusps
 
+#Update Selenium to 3.6
+RUN pip install selenium --upgrade
+
 #Clone myusps_notifications repo
 RUN git clone https://github.com/nshores/my_usps_notifications.git
 
 #Install Dependencies
 RUN apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4
 
+
+# Install geckodriver:
+RUN export BASE_URL=https://github.com/mozilla/geckodriver/releases/download \
+  && export VERSION=$(curl -sL \
+    https://api.github.com/repos/mozilla/geckodriver/releases/latest | \
+    grep tag_name | cut -d '"' -f 4) \
+  && curl -sL \
+  $BASE_URL/$VERSION/geckodriver-$VERSION-linux64.tar.gz | tar -xz \
+&& mv geckodriver /usr/local/bin/geckodriver
 
 # Install Chrome
 RUN curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
