@@ -1,0 +1,43 @@
+from selenium import webdriver
+from selenium.common.exceptions import TimeoutException, WebDriverException
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities    
+from selenium.webdriver.firefox.options import Options
+
+HTML_PARSER = 'html.parser'
+BASE_URL = 'https://reg.usps.com'
+MY_USPS_URL = BASE_URL + '/login?app=MyUSPS'
+AUTHENTICATE_URL = BASE_URL + '/entreg/json/AuthenticateAction'
+LOGIN_URL = BASE_URL + '/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/'
+DASHBOARD_URL = 'https://informeddelivery.usps.com/box/pages/secure/DashboardAction_input.action'
+INFORMED_DELIVERY_IMAGE_URL = 'https://informeddelivery.usps.com/box/pages/secure/'
+PROFILE_URL = 'https://store.usps.com/store/myaccount/profile.jsp'
+WELCOME_TITLE = 'Welcome | USPS'
+LOGIN_TIMEOUT = 10
+COOKIE_PATH = './usps_cookies.pickle'
+CACHE_PATH = './usps_cache'
+ATTRIBUTION = 'Information provided by www.usps.com'
+
+firefoxoptions = Options()
+firefoxoptions.add_argument("--headless")
+newdriver = webdriver.Firefox(firefox_options=firefoxoptions)
+print("Firefox Headless Browser Invoked")
+
+#newdriver = webdriver.Firefox()
+# newdriver = webdriver.PhantomJS()
+newdriver.get(LOGIN_URL)
+
+
+username = newdriver.find_element_by_name('username')
+username.send_keys('nick@shoresmedia.com')
+
+
+password = newdriver.find_element_by_name('password')
+password.send_keys('Kv96wLhX87j6')
+
+
+newdriver.find_element_by_id('btn-submit').click()
+WebDriverWait(newdriver, 30)
+newdriver.save_screenshot('screen.png')
+newdriver.title
