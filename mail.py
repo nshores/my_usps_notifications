@@ -99,7 +99,7 @@ else:
             print(imgurlink["link"])
             #Push to pushbullet if enabled
             if pushbullet_enabled == 1:
-             push = pb.push_file(file_url=(imgurlink["link"]), file_name="mailpieceImg.jpg", file_type="image/jpeg")
+             push = pb.push_file(file_url=imgurlink["link"], file_name="mailpieceImg.jpg", file_type="image/jpeg")
             
             #construct slack message
             slack_data = {
