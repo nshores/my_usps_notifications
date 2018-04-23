@@ -1,5 +1,21 @@
 # Slack/Email/Pushbullet Notification module built around the [MyUsps python library](https://github.com/happyleavesaoc/python-myusps)
 
+
+# CLI output
+```
+root@33e223d445d7:/my_usps_notifications# python3.6 mail.py 
+Number of Packages: 1
+Tracking Number 9205596900893491619272
+Number of Mail Items: 0
+
+```
+
+
+# Screenshots
+
+![Alt text](https://raw.githubusercontent.com/nshores/my_usps_notifications/master/example.png?raw=true "Title")
+
+
 **You need a free account at [USPS Informed Delivery](https://informeddelivery.usps.com/box/pages/intro/start.action) to use this --**
 
 # Install Instructions 
@@ -35,20 +51,6 @@ USPS Informed Delivery Account.
 Python3.6   
 imgurpython (`pip install imgurpython`  )  
 Pushbullet Python Library (`pip install pushbullet.py`)
-
-# CLI output
-```
-root@33e223d445d7:/my_usps_notifications# python3.6 mail.py 
-Number of Packages: 1
-Tracking Number 9205596900893491619272
-Number of Mail Items: 0
-
-```
-
-
-# Screenshots
-
-![Alt text](https://raw.githubusercontent.com/nshores/my_usps_notifications/master/example.png?raw=true "Title")
 
 
 
