@@ -18,15 +18,20 @@ After pulling, you can either edit the included ```docker_run.sh``` script with 
 | `-e webhook_url="XXXX"`<br/> **Required** | Set to your SlackWebhook URL (https://get.slack.help/hc/en-us/articles/115005265063-Incoming-WebHooks-for-Slack#set-up-incoming-webhooks)
 | `-e usps_username="XXXX"`<br/> **Required** | Set to your https://informeddelivery.usps.com/ Username
 | `-e usps_password="XXXX"`<br/> **Required** | Set to your https://informeddelivery.usps.com/ password
+| `-e pushbullet_enabled="XXXX"`<br/> | Set to "1" for enabling pushbullet support
+| `-e pushbullet_key="XXXX"`<br/> | Set your pushbullet api key here (Founder under https://www.pushbullet.com/#settings/account - Access tokens)
 
 # Requirments for manual install
-**Chromedriver https://sites.google.com/a/chromium.org/chromedriver/  
-Google Chrome.  
+**GeckoDriver https://github.com/mozilla/geckodriver/releases  
+Firefox v59  
+Selenium 3.11 (`pip install selenium`)
 USPS Informed Delivery Account.  
 Python3.6.5 (For f-strings)  
 Imgur API Key - Register imgur client here - https://api.imgur.com/oauth2/addclient  
 imgurpython (`pip install imgurpython`  )  
-Custom Slack application (https://api.slack.com/apps)**
+Custom Slack application (https://api.slack.com/apps)
+Pushbullet Python Library (`pip install pushbullet.py`)
+**
 
 # CLI output
 ```

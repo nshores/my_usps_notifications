@@ -18,6 +18,9 @@ RUN apt-get install -y git
 RUN python3.6 -m pip install pip --upgrade
 RUN python3.6 -m pip install wheel
 
+#Install Pushbullet library
+RUN pip install pushbullet.py
+
 #Install imgrurpython
 RUN pip install imgurpython
 
