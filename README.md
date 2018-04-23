@@ -1,4 +1,4 @@
-# Slack/Email/Pushbullet Notification module built around the [MyUsps python library](https://github.com/happyleavesaoc/python-myusps)
+# Docker image for a Slack/Email/Pushbullet Notification module built around the [MyUsps python library](https://github.com/happyleavesaoc/python-myusps)
 
 
 # CLI output
