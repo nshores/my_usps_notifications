@@ -1,6 +1,6 @@
-# Slack/Email/Pushbullet Notification module built around the MyUsps python library (https://github.com/happyleavesaoc/python-myusps)
+# Slack/Email/Pushbullet Notification module built around the [MyUsps python library](https://github.com/happyleavesaoc/python-myusps)
 
-**You need a free account at USPS Informed Delivery to use this -- https://informeddelivery.usps.com/box/pages/intro/start.action**
+**You need a free account at [USPS Informed Delivery](https://informeddelivery.usps.com/box/pages/intro/start.action) to use this --**
 
 # Install Instructions 
 ```sudo docker pull nshores/my_usps_notifications```  
@@ -22,16 +22,19 @@ After pulling, you can either edit the included ```docker_run.sh``` script with 
 | `-e pushbullet_key="XXXX"`<br/> | Set your pushbullet api key here (Founder under https://www.pushbullet.com/#settings/account - Access tokens)
 
 # Requirments for manual install
-**GeckoDriver https://github.com/mozilla/geckodriver/releases  
+
+  * Register a webhook in your slack channel   - [Custom Slack application](https://api.slack.com/apps)  
+  * Obtain Imgur API Key - [Register imgur client here](https://api.imgur.com/oauth2/addclient)  
+
+Install the folowing --
+
+[GeckoDriver](https://github.com/mozilla/geckodriver/releases)  
 Firefox v59  
 Selenium 3.11 (`pip install selenium`)
 USPS Informed Delivery Account.  
-Python3.6.5 (For f-strings)  
-Imgur API Key - Register imgur client here - https://api.imgur.com/oauth2/addclient  
+Python3.6   
 imgurpython (`pip install imgurpython`  )  
-Custom Slack application (https://api.slack.com/apps)
 Pushbullet Python Library (`pip install pushbullet.py`)
-**
 
 # CLI output
 ```
