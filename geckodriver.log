@@ -1,0 +1,167 @@
+1524498163664	geckodriver	INFO	geckodriver 0.20.1
+1524498163672	geckodriver	INFO	Listening on 127.0.0.1:59078
+1524498164675	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-profile" "/var/folders/fg/qf557j210sn07tn_45njsb6w0000gn/T/rust_mozprofile.OgQyZTc5NsgZ"
+*** You are running in headless mode.
+1524498165166	Marionette	INFO	Enabled via --marionette
+2018-04-23 08:42:45.958 plugin-container[27869:2017013] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb333, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524498166166	Marionette	INFO	Listening on port 59089
+1524498166224	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-23 08:42:46.877 plugin-container[27870:2017133] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1524605936882	geckodriver	INFO	geckodriver 0.20.1
+1524605936890	geckodriver	INFO	Listening on 127.0.0.1:53113
+1524605937891	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-profile" "/var/folders/fg/qf557j210sn07tn_45njsb6w0000gn/T/rust_mozprofile.Afe3WD1yBY6L"
+*** You are running in headless mode.
+1524605938420	Marionette	INFO	Enabled via --marionette
+2018-04-24 14:38:59.194 plugin-container[49894:2409263] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb433, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524605939484	Marionette	INFO	Listening on port 53126
+1524605939548	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-24 14:39:00.100 plugin-container[49895:2409379] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1524717095568	geckodriver	INFO	geckodriver 0.20.1
+1524717095577	geckodriver	INFO	Listening on 127.0.0.1:65437
+1524717096575	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-profile" "/var/folders/fg/qf557j210sn07tn_45njsb6w0000gn/T/rust_mozprofile.DBmihHLOaBkP"
+*** You are running in headless mode.
+1524717097132	Marionette	INFO	Enabled via --marionette
+2018-04-25 21:31:38.104 plugin-container[87916:2940336] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb637, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524717098406	Marionette	INFO	Listening on port 65448
+1524717098444	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-25 21:31:38.959 plugin-container[87917:2940465] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1525106356179	geckodriver	INFO	geckodriver 0.20.1
+1525106356187	geckodriver	INFO	Listening on 127.0.0.1:62090
+1525106357184	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-profile" "/var/folders/fg/qf557j210sn07tn_45njsb6w0000gn/T/rust_mozprofile.oYsuzucE12IA"
+*** You are running in headless mode.
+1525106357788	Marionette	INFO	Enabled via --marionette
+2018-04-30 09:39:18.621 plugin-container[38146:3849637] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb32b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1525106358878	Marionette	INFO	Listening on port 62101
+1525106358938	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-30 09:39:19.523 plugin-container[38148:3849784] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1525106365621	geckodriver	INFO	geckodriver 0.20.1
+1525106365625	geckodriver	INFO	Listening on 127.0.0.1:62166
+1525106366633	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-profile" "/var/folders/fg/qf557j210sn07tn_45njsb6w0000gn/T/rust_mozprofile.O4PSh8eeqM9C"
+*** You are running in headless mode.
+1525106367038	Marionette	INFO	Enabled via --marionette
+2018-04-30 09:39:27.740 plugin-container[38207:3850190] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb43b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1525106368010	Marionette	INFO	Listening on port 62177
+1525106368080	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-30 09:39:28.683 plugin-container[38208:3850292] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: PushService: 
+  Failed to drop expired registrations on idle
+  UnknownError
+console.error: PushService: 
+  Failed to drop expired registrations on idle
+  UnknownError
+console.error: PushService: 
+  Failed to drop expired registrations on idle
+  UnknownError
+console.error: PushService: 
+  Failed to drop expired registrations on idle
+  UnknownError
+1531965719088	geckodriver	INFO	geckodriver 0.20.1
+1531965719096	geckodriver	INFO	Listening on 127.0.0.1:55413
+1531965720105	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-profile" "/var/folders/fg/qf557j210sn07tn_45njsb6w0000gn/T/rust_mozprofile.DVCx9wEeVVA7"
+*** You are running in headless mode.
+2018-07-18 19:02:01.308 plugin-container[25346:1094060] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa537, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-18 19:02:01.441 plugin-container[25347:1094113] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531965721640	Marionette	INFO	Listening on port 55424
+1531965721668	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-18 19:02:02.196 plugin-container[25348:1094245] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9937, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+2018-07-18 19:02:02.724 plugin-container[25347:1094310] Error loading /Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn:  dlopen(/Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn, 262): no suitable image found.  Did find:
+	/Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn: file system sandbox blocked mmap() of '/Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn'
+2018-07-18 19:02:02.725 plugin-container[25347:1094310] Cannot find function pointer New_SHP_PlugIn for factory 834FC054-C1CC-11D6-BD01-00039315CD46 in CFBundle/CFPlugIn 0x11cd5c100 </Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin> (bundle, not loaded)
+1531970704307	geckodriver	INFO	geckodriver 0.20.1
+1531970704315	geckodriver	INFO	Listening on 127.0.0.1:56575
+1531970705318	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-profile" "/var/folders/fg/qf557j210sn07tn_45njsb6w0000gn/T/rust_mozprofile.HigRRyqAUYyw"
+*** You are running in headless mode.
+2018-07-18 20:25:06.353 plugin-container[26871:1127868] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa233, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-18 20:25:06.509 plugin-container[26872:1127926] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa033, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531970706680	Marionette	INFO	Listening on port 56586
+1531970706759	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-18 20:25:07.296 plugin-container[26873:1128051] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9937, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 500: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+2018-07-18 20:25:07.703 plugin-container[26872:1128113] Error loading /Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn:  dlopen(/Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn, 262): no suitable image found.  Did find:
+	/Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn: file system sandbox blocked mmap() of '/Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn'
+2018-07-18 20:25:07.703 plugin-container[26872:1128113] Cannot find function pointer New_SHP_PlugIn for factory 834FC054-C1CC-11D6-BD01-00039315CD46 in CFBundle/CFPlugIn 0x12455f5c0 </Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin> (bundle, not loaded)
+1537388478217	geckodriver	INFO	geckodriver 0.20.1
+1537388478225	geckodriver	INFO	Listening on 127.0.0.1:52477
+1537388479224	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-profile" "/var/folders/fg/qf557j210sn07tn_45njsb6w0000gn/T/rust_mozprofile.1YZHG1zoMsh8"
+*** You are running in headless mode.
+2018-09-19 13:21:20.694 plugin-container[91748:10108444] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-09-19 13:21:20.890 plugin-container[91749:10108502] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1537388481111	Marionette	INFO	Listening on port 52488
+1537388481206	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537388481243	Marionette	DEBUG	[4294967297] Frame script loaded
+1537388481244	Marionette	DEBUG	[4294967297] Frame script registered
+1537388481264	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1537388481541	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+2018-09-19 13:21:21.599 plugin-container[91751:10108836] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9637, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1537388481903	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 501: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 501: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 501: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/, line 501: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+2018-09-19 13:21:22.081 plugin-container[91749:10108991] Error loading /Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn:  dlopen(/Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn, 262): no suitable image found.  Did find:
+	/Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn: file system sandbox blocked mmap() of '/Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin/Contents/MacOS/BartenderAudioPlugIn'
+2018-09-19 13:21:22.081 plugin-container[91749:10108991] Cannot find function pointer New_SHP_PlugIn for factory 834FC054-C1CC-11D6-BD01-00039315CD46 in CFBundle/CFPlugIn 0x11c3c84c0 </Library/Audio/Plug-Ins/HAL/BartenderAudioPlugIn.plugin> (bundle, not loaded)
+1537388483079	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&appURL=https://www.usps.com/
+1537388483630	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected

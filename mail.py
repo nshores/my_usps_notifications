@@ -48,15 +48,42 @@ session = myusps.get_session(username, password, driver='firefox')
 # Get all packages that My UPS knows about.
 packages = myusps.get_packages(session)
 
-if len(packages) == 0:
-    print ("You have no packages right now")
-    slack_text= ("No USPS Packages Today!")
+#Check for packages that haven't been delivered yet
+upcoming_packages = 0
+for p in packages:
+    tracking_number = p['tracking_number']
+    delivery_date = p['delivery_date']
+    present = datetime.datetime.now().date()
+    if present < delivery_date:
+        upcoming_packages += 1
+
+#Handle any packages in the queue
+if upcoming_packages > 0:
+    slack_text = (f"Number of upcoming USPS Package Items: {upcoming_packages}")
     slack_data = {"text": slack_text}
     slack_post(webhook_url, slack_data)
-else:
-    print (f"Number of Packages: {len(packages)}")
     for pkg in packages:
-        print (f"Tracking Number",pkg['tracking_number'])
+        print ("Tracking Number",pkg['tracking_number'])
+        tracking_number = pkg['tracking_number']
+        primary_status = pkg['primary_status']
+        secondary_status = pkg['secondary_status']
+        delivery_date = pkg['delivery_date']
+        slack_text = (
+        f"Tracking Number: {tracking_number}\n"
+        f"Primary Status: {primary_status}\n"
+        f"Secondary Status: {secondary_status}\n"
+        f"Delivery Date: {delivery_date}\n"
+        )
+        slack_data = {"text": slack_text}
+        slack_post(webhook_url, slack_data)
+
+#No Packages set for delivery today or after today's date
+else:
+    print("No Packages in the queue for delivery!")
+    slack_text= ("No USPS Package Items Today!")
+    slack_data = {"text": slack_text}
+    slack_post(webhook_url, slack_data)
+
 
 # Get mail delivered today
 mail = myusps.get_mail(session, datetime.datetime.now().date())
