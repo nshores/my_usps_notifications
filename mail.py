@@ -64,7 +64,7 @@ for p in packages:
 if upcoming_packages > 0:
     slack_text = (f"Number of upcoming USPS Package Items: {upcoming_packages}")
     slack_data = {"text": slack_text}
-    #slack_post(webhook_url, slack_data)
+    slack_post(webhook_url, slack_data)
     for pkg in packages:
         #Check to make sure they have not been delivered
         tracking_number = pkg['tracking_number']
