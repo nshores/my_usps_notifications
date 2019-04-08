@@ -126,6 +126,8 @@ else:
             del session
             os.remove("usps_cache.sqlite")
             os.remove("usps_cookies.pickle")
+            #setup new session
+            session = myusps.get_session(username, password, driver='firefox')
             #Download Image of mail
             image = session.get(item['image'], allow_redirects=False)
             if image.status_code == 200:
