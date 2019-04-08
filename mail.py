@@ -122,7 +122,10 @@ else:
             print (f"Image:",item['image'])
             print (f"Date:",item['date'])
             id = item['id']
-
+            #Clear Session and cache because we apparently need to have a fresh cookie to download an image now.
+            del session
+            os.remove("usps_cache.sqlite")
+            os.remove("usps_cookies.pickle")
             #Download Image of mail
             image = session.get(item['image'], allow_redirects=False)
             if image.status_code == 200:
