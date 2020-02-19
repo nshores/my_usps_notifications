@@ -1,17 +1,14 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 MAINTAINER Nick Shores
 
-#Install Python 3.6
-RUN apt-get update
-RUN apt-get install -y software-properties-common vim
-RUN add-apt-repository ppa:jonathonf/python-3.6
+#Update apt-get
 RUN apt-get update
 
 #install curl
-RUN apt-get install curl wget
+RUN apt-get install -y curl wget
 
-RUN apt-get install -y build-essential python3.6 python3.6-dev python3-pip python3.6-venv
+RUN apt-get install -y build-essential python3-pip
 RUN apt-get install -y git
 
 # update pip
@@ -19,16 +16,16 @@ RUN python3.6 -m pip install pip --upgrade
 RUN python3.6 -m pip install wheel
 
 #Install Pushbullet library
-RUN pip install pushbullet.py
+RUN pip3 install pushbullet.py
 
 #Install imgrurpython
-RUN pip install imgurpython
+RUN pip3 install imgurpython
 
 #Install MyUsps Library
-RUN pip install myusps
+RUN pip3 install myusps
 
-#Update Selenium to 3.6
-RUN pip install selenium --upgrade
+#Update Selenium
+RUN pip3 install selenium --upgrade
 
 #Clone myusps_notifications repo
 RUN git clone https://github.com/nshores/my_usps_notifications.git
