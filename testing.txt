@@ -34,7 +34,7 @@ username.send_keys('nick@shoresmedia.com')
 
 
 password = newdriver.find_element_by_name('password')
-password.send_keys('Kv96wLhX87j6')
+password.send_keys('xxx')
 
 
 newdriver.find_element_by_id('btn-submit').click()
